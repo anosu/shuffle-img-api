@@ -24,7 +24,7 @@ https://moe.jitsu.top/api/
 3. `type`为返回格式，未定义时默认302跳转，建议使用`json`，为防止滥用，r18一律返回json
 4. `num`返回的数量，仅type=json时有效
 
-### 示例
+### 调用示例
 * 直接调用
 ```url
 https://moe.jitsu.top/api/
@@ -44,4 +44,20 @@ https://moe.jitsu.top/api/?sort=silver&size=small&type=json
 * r18调用
 ```url
 https://moe.jitsu.top/api/?sort=r18&size=original&type=json&num=5
+```
+
+## 返回示例
+```
+{
+    "sort": "furry",
+    "number": "5",
+    "pic": [
+        "https:\/\/tva4.sinaimg.cn\/mw2048\/ec43126fgy1h1ne5vl08yj228e3cuhdt.jpg",
+        "https:\/\/tva4.sinaimg.cn\/mw2048\/ec43126fgy1h0hsl88hzcj21h61vihdu.jpg",
+        "https:\/\/tva3.sinaimg.cn\/mw2048\/ec43126fgy1gzyi9yj1c4j21w91nwu0x.jpg",
+        "https:\/\/tva4.sinaimg.cn\/mw2048\/ec43126fgy1gx5p5veh0pj21i023i1ky.jpg",
+        "https:\/\/tva3.sinaimg.cn\/mw2048\/ec43126fgy1gqhauoc274j217m1kwgww.jpg"
+    ],
+    "warning": null
+}
 ```
