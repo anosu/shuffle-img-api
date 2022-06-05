@@ -18,6 +18,7 @@ https://moe.jitsu.top/api/
 |type|string|`json`|
 |size(r18)|string|`original`,`regular`,`thumb`,`small`|
 |num|int|1-100|
+
 说明：
 1. `sort`为图片类型，默认为`all`(所有正常图)，`pc`为横屏壁纸，`mp`为竖屏壁纸，`silver`为银发，`furry`为兽耳，`r18`无需多说
 2. `size`为图片规格，针对不同类型的图（r18和非r18有不同的取值），非r18默认为`large`，r18默认为`regular`
@@ -46,3 +47,4 @@ https://moe.jitsu.top/api/?sort=silver&size=small&type=json
 https://moe.jitsu.top/api/?sort=r18&size=original&type=json&num=5
 ```
 
+[情报](../details/)
