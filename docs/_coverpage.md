@@ -1,6 +1,6 @@
 # Jitsuの随机图片API
 
-> 这是一个文档
+> 涩图biubiu
 
 [Get Started](#前言)
 
