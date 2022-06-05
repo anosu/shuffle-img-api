@@ -35,6 +35,9 @@ $num = !empty($_GET['num']) ? $_GET['num'] : '1' ;
 } else {
 $num = 1;
 }
+if($num > 100){
+	$num = 100;
+}
 //定义图片数组
 $urls = [];
 $n = 1;
