@@ -46,8 +46,8 @@ https://moe.jitsu.top/api/?sort=silver&size=small&type=json
 https://moe.jitsu.top/api/?sort=r18&size=original&type=json&num=5
 ```
 
-## 返回示例
-```
+### 返回示例
+```json
 {
     "sort": "furry",
     "number": "5",
