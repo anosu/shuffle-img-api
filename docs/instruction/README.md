@@ -6,7 +6,6 @@
 ```url
 https://moe.jitsu.top/api/
 ```
-> 以上两个任选其一
 
 * 返回格式：302跳转/json
 * 参数介绍：
@@ -46,5 +45,3 @@ https://moe.jitsu.top/api/?sort=silver&size=small&type=json
 ```url
 https://moe.jitsu.top/api/?sort=r18&size=original&type=json&num=5
 ```
-
-[情报](../details/)
