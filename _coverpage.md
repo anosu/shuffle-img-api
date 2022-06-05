@@ -1,8 +1,8 @@
-# G
+# Jitsuの随机图片API
 
-> 简洁，大气，可爱QwQ
+> 这是一个文档
 
-[Get Started](#使用须知)
+[Get Started](#前言)
 
 <!-- 背景色 -->
 
