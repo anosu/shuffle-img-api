@@ -4,7 +4,7 @@
 * 请求方式：GET
 * 请求地址：
 ```url
-https://moe.jitsu.top/api/
+https://moe.jitsu.top/img/
 ```
 
 * 返回格式：302跳转/json
