@@ -27,23 +27,23 @@ https://moe.jitsu.top/img/
 ### 调用示例
 * 直接调用
 ```url
-https://moe.jitsu.top/api/
+https://moe.jitsu.top/img/
 ```
 * 请求类别
 ```url
-https://moe.jitsu.top/api/?sort=furry
+https://moe.jitsu.top/img/?sort=furry
 ```
 * 设置规格
 ```url
-https://moe.jitsu.top/api/?sort=pc&size=mw1024
+https://moe.jitsu.top/img/?sort=pc&size=mw1024
 ```
 * 返回json
 ```url
-https://moe.jitsu.top/api/?sort=silver&size=small&type=json
+https://moe.jitsu.top/img/?sort=silver&size=small&type=json
 ```
 * r18调用
 ```url
-https://moe.jitsu.top/api/?sort=r18&size=original&type=json&num=5
+https://moe.jitsu.top/img/?sort=r18&size=original&type=json&num=5
 ```
 
 ### 返回示例
