@@ -9,4 +9,4 @@
 
 于是就琢磨着自己做一个，随便去网上找了一段源码，然后自己大加修改，就有了现在这个API
 
-<div align="right"><a href="/instruction/">使用说明</a></div>
+<div align="right"><a href="/#/instruction/">使用说明</a></div>
