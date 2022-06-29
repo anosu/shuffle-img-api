@@ -4,8 +4,11 @@
 * 请求方式：GET
 * 请求地址：
 ```url
-https://moe.jitsu.top/img/
+国内服务器：https://api.anosu.top/img/
+香港服务器：https://moe.jitsu.top/img/
 ```
+
+> 以下两域名可互换
 
 * 返回格式：302跳转/json
 * 参数介绍：
