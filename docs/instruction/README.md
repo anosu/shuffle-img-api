@@ -4,8 +4,8 @@
 * 请求方式：GET
 * 请求地址：
 ```url
-国内服务器：https://api.anosu.top/img/
-香港服务器：https://moe.jitsu.top/img/
+国内：https://api.anosu.top/img/
+国外：https://moe.jitsu.top/img/
 ```
 
 > 以下两域名可互换，国内源不提供r18
