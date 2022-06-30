@@ -3,12 +3,11 @@
 ### 用法
 * 请求方式：GET
 * 请求地址：
-```url
-国内：https://api.anosu.top/img/
-国外：https://moe.jitsu.top/img/
-```
 
-> 以下两域名可互换，国内源不提供r18
+国内：[https://api.anosu.top/img/](https://api.anosu.top/img/)
+国外：[https://moe.jitsu.top/img/](https://moe.jitsu.top/img/)
+
+> 以上两域名可互换，国内源不提供r18
 
 * 返回格式：302跳转/json
 * 参数介绍：
@@ -29,25 +28,25 @@
 
 ### 调用示例
 * 直接调用
-```url
-https://moe.jitsu.top/img/
-```
+
+[https://moe.jitsu.top/img/](https://moe.jitsu.top/img/)
+
 * 请求类别
-```url
-https://moe.jitsu.top/img/?sort=furry
-```
+
+[https://moe.jitsu.top/img/?sort=furry](https://moe.jitsu.top/img/?sort=furry)
+
 * 设置规格
-```url
-https://moe.jitsu.top/img/?sort=pc&size=mw1024
-```
+
+[https://moe.jitsu.top/img/?sort=pc&size=mw1024](https://moe.jitsu.top/img/?sort=pc&size=mw1024)
+
 * 返回json
-```url
-https://moe.jitsu.top/img/?sort=silver&size=small&type=json
-```
+
+[https://moe.jitsu.top/img/?sort=silver&size=small&type=json](https://moe.jitsu.top/img/?sort=silver&size=small&type=json)
+
 * r18调用
-```url
-https://moe.jitsu.top/img/?sort=r18&size=original&type=json&num=5
-```
+
+[https://moe.jitsu.top/img/?sort=r18&size=original&type=json&num=5](https://moe.jitsu.top/img/?sort=r18&size=original&type=json&num=5)
+
 
 ### 返回示例
 ```json
