@@ -5,6 +5,7 @@
 * 请求地址：
 
 国内：[https://api.anosu.top/img/](https://api.anosu.top/img/)
+
 国外：[https://moe.jitsu.top/img/](https://moe.jitsu.top/img/)
 
 > 以上两域名可互换，国内源不提供r18
