@@ -26,6 +26,7 @@
 2. `size`为图片规格，针对不同类型的图（r18和非r18有不同的取值），非r18默认为`large`，r18默认为`regular`
 3. `type`为返回格式，未定义时默认302跳转，建议使用`json`，为防止滥用，r18一律返回json
 4. `num`返回的数量，仅type=json时有效
+5. 若想去掉`size`参数调用，可以将链接中的img换成api，如[https://moe.jitsu.top/api/](https://moe.jitsu.top/api/)，借此可以加快响应速度
 
 ### 调用示例
 * 直接调用
