@@ -18,7 +18,7 @@ $num = $num > 100 ? 100 : $num;
 
 for ($i = 0; $i < $num; $i++) {
     $url = $pics[array_rand($pics)];
-    // $url = str_replace(array("\r","\n","\r\n"), '', $url);
+    $url = str_replace(array("\r","\n","\r\n"), '', $url);
     array_push($urls, $url);
 }
 
