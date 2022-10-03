@@ -3,7 +3,7 @@ $sort = !empty($_GET['sort']) ? $_GET['sort'] : 'all';
 $num = !empty($_GET['num']) ? $_GET['num'] : 1;
 $type = $_GET['type'];
 $urls = [];
-$filename = './txt/' . $sort . '_raw.txt';
+$filename = './txt/' . $sort . '.txt';
 if (!file_exists($filename)) {
     die('sort为空或文件不存在');
 }
