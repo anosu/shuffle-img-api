@@ -4,10 +4,10 @@
 * 请求方式：GET
 * 请求地址：
 
-国内：[https://moe.anosu.top/img/](https://moe.anosu.top/img/)
+国内：[https://moe.anosu.top/img/](https://moe.anosu.top/img/)<br>
 (不带size参数)：[https://moe.anosu.top/api/](https://moe.anosu.top/api/)
 
-国外：[https://moe.jitsu.top/img/](https://moe.jitsu.top/img/)
+国外：[https://moe.jitsu.top/img/](https://moe.jitsu.top/img/)<br>
 (不带size参数)：[https://moe.jitsu.top/api/](https://moe.jitsu.top/api/)
 
 > 以上两域名可互换，国内源不提供r18
