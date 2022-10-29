@@ -4,7 +4,7 @@
 * 请求方式：GET
 * 请求地址：
 
-国内：[https://api.anosu.top/img/](https://api.anosu.top/img/)
+国内：[https://moe.anosu.top/img/](https://moe.anosu.top/img/)
 
 国外：[https://moe.jitsu.top/img/](https://moe.jitsu.top/img/)
 
