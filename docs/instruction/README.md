@@ -6,7 +6,11 @@
 >
 > 另外之前由于时间与技术的原因，这篇文档写得其实也并不是十分详细，今天就尽力补充一下吧
 
+
+
 > 使用过程中你可能会遇到部分图片404等情况，~~那就是寄掉了，问我也没用，~~可能是p站的作品被画师删除了或者设置成了非公开
+
+
 
 ### 使用说明
 
@@ -28,14 +32,14 @@
 
 4. 参数说明：
 
-对于不同类的sort有不同的参数，因此分两大类来说明，sort默认为`all`
+&nbsp;&nbsp;对于不同类的sort有不同的参数，因此分两大类来说明，sort默认为`all`
 
 - 对于第一类图片（图源不在p站），详见下表中的`sort`
 
 | 名称 |  类型  |    说明    |                            可选值                            |
 | :--: | :----: | :--------: | :----------------------------------------------------------: |
-| sort | string | 图片的分类 | `all`, `mp`, `pc`, `1080p`, `silver`, <br />`furry`, `starry`, `setu`, `ws` |
-| size | string | 图片的规格 | `large`, `mw2048`, `mw1024`, `mw690`, `small`, <br />`thumb150`, `thumb180`, `thumbnail`, <br />`bmiddle`, `square`, `orj360`, `orj480`<br />默认为`large` |
+| sort | string | 图片的分类 | `all`, `mp`, `pc`, `1080p`, `silver`, `furry`, `starry`, `setu`, `ws` |
+| size | string | 图片的规格 | `large`, `mw2048`, `mw1024`, `mw690`, `small`, `thumb150`, `thumb180`, `thumbnail`, `bmiddle`, `square`, `orj360`, `orj480`<br />默认为`large` |
 | type | string | 返回的格式 |      `json`<br />默认为302跳转，num大于1时强制为`json`       |
 | num  |  int   | 返回的数量 |                            1-100                             |
 
@@ -50,7 +54,7 @@
 | starry |                         星空                         |
 |  setu  |                     涩图（不漏）                     |
 
-     
+​     
 
 - 对于第二类图片（图源在p站），详见下表中的`sort`
 
@@ -78,7 +82,7 @@
      区别在于：`api`仅有`sort`、`num`和`type`三个可选参数（两类图片均如此），`size`均为`large`或者`original`（可请求后自行replace），第二类图片`proxy`均为`i.pixiv.re`
    
    - API已添加允许跨域策略
-
+   
    - 如果你有根据关键词查询的需求，请移步https://image.anosu.top
 
 
