@@ -137,4 +137,4 @@ pixiv.cat中已经提供了两种方法，分别是直接用Nginx和用js运行�
 
 ### 特别鸣谢
 
-- [MirlKoi](https://iw233.cn) 本API大部分的图都来自与iw233大佬
+- [MirlKoi](https://iw233.cn) 本API大部分的图都来自iw233大佬
