@@ -1,4 +1,5 @@
 > 虽然很遗憾，但是微博再次加防盗链了，现在图片只能下载，暂时无法直接在线访问，暂时还没转移，等待修复吧
+> 2023.1.4 维护完了，size参数有部分改动，其他的暂时没变
 
 > 能别整天爬来爬去恶心人吗
 
@@ -43,7 +44,7 @@
 | 名称 |  类型  |    说明    |                            可选值                            |
 | :--: | :----: | :--------: | :----------------------------------------------------------: |
 | sort | string | 图片的分类 | `all`, `mp`, `pc`, `1080p`, `silver`, `furry`, `starry`, `setu`, `ws` |
-| size | string | 图片的规格 | `large`, `mw2048`, `mw1024`, `mw690`, `small`, `thumb150`, `thumb180`, `thumbnail`, `bmiddle`, `square`, `orj360`, `orj480`<br />默认为`large` |
+| size | string | 图片的规格 | `original`<br />`mw`前缀(最大宽度)：4096, 3840, 2048, 1920, 1024, 960, 512, 480, 256, 240, 128,120<br />常用：`2160p`, `1440p`, `1080p`, `720p`, `480p`<br />`sq`前缀(方形)：2048, 1024, 512, 256, 128<br />默认为`original` |
 | type | string | 返回的格式 |      `json`<br />默认为302跳转，num大于1时强制为`json`       |
 | num  |  int   | 返回的数量 |                            1-100                             |
 
@@ -85,6 +86,14 @@
    
      区别在于：`api`仅有`sort`、`num`和`type`三个可选参数（两类图片均如此），`size`均为`large`或者`original`（可请求后自行replace），第二类图片`proxy`均为`i.pixiv.re`
    
+   - 第一类图片的`size`也可自行发挥，参见https://cloud.baidu.com/doc/BOS/s/gkbisf3l4，你只需要按照规定的格式输入就行，如
+   
+     ```url
+     https://moe.jitsu.top/img/?type=json&size=m_fill,w_233,h_233
+     ```
+   
+     为保证可用性，API已强制设置`limit_1`
+   
    - API已添加允许跨域策略
    
    - 如果你有根据关键词查询的需求，请移步https://image.anosu.top
@@ -106,7 +115,7 @@
 
 - 返回json
 
-    https://moe.jitsu.top/img/?sort=r18&size=small&type=json
+    https://moe.jitsu.top/img/?sort=r18&size=1080p&type=json
 
 - 设置反代
 
@@ -120,11 +129,11 @@
 [{
     "code": 200,
     "pics": [
-        "https:\/\/tvax4.sinaimg.cn\/mw2048\/ec43126fgy1h1ne5vl08yj228e3cuhdt.jpg",
-        "https:\/\/tvax4.sinaimg.cn\/mw2048\/ec43126fgy1h0hsl88hzcj21h61vihdu.jpg",
-        "https:\/\/tvax3.sinaimg.cn\/mw2048\/ec43126fgy1gzyi9yj1c4j21w91nwu0x.jpg",
-        "https:\/\/tvax4.sinaimg.cn\/mw2048\/ec43126fgy1gx5p5veh0pj21i023i1ky.jpg",
-        "https:\/\/tvax3.sinaimg.cn\/mw2048\/ec43126fgy1gqhauoc274j217m1kwgww.jpg"
+        "https://bj.bcebos.com/baidu-rmb-video-cover-1/26ae0f1e24a5279dd2e3651acecf16b0.jpeg?x-bce-process=image/resize,limit_1,m_lfit,w_1024",
+        "https://bj.bcebos.com/baidu-rmb-video-cover-1/a2c6bb2ed2ecda2669b015f83d58559b.jpeg?x-bce-process=image/resize,limit_1,m_lfit,w_1024",
+        "https://bj.bcebos.com/baidu-rmb-video-cover-1/a03ecc7c398294c119ccd6db4c19c7b4.jpeg?x-bce-process=image/resize,limit_1,m_lfit,w_1024",
+        "https://bj.bcebos.com/baidu-rmb-video-cover-1/fa7b55586964294f751bfcaca5293de7.jpeg?x-bce-process=image/resize,limit_1,m_lfit,w_1024",
+        "https://bj.bcebos.com/baidu-rmb-video-cover-1/749ee90b72138d807935bf585e40da59.jpeg?x-bce-process=image/resize,limit_1,m_lfit,w_1024"
     ]
 }]
 ```
