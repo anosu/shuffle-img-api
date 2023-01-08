@@ -87,7 +87,7 @@
    
      区别在于：`api`仅有`sort`、`num`和`type`三个可选参数（两类图片均如此），`size`均为`large`或者`original`（可请求后自行replace），第二类图片`proxy`均为`i.pixiv.re`
    
-   - 第一类图片的`size`也可自行发挥，参见https://cloud.baidu.com/doc/BOS/s/gkbisf3l4，你只需要按照规定的格式输入就行，如
+   - 第一类图片的`size`也可自行发挥，参见[图像缩放](https://cloud.baidu.com/doc/BOS/s/gkbisf3l4)，你只需要按照规定的格式输入就行，如
    
      ```url
      https://moe.jitsu.top/img/?type=json&size=m_fill,w_233,h_233
