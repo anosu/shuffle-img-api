@@ -10,3 +10,5 @@
 于是就琢磨着自己做一个，随便去网上找了一段源码，然后自己大加修改，就有了现在这个API
 
 <div align="right"><a href="/#/instruction/">使用说明</a></div>
+
+<a href="https://icp.gov.moe/?keyword=20233331" target="_blank">萌ICP备20233331号</a>
