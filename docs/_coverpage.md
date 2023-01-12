@@ -1,4 +1,4 @@
-# Jitsuの随机图片API
+# Jitsuの随机涩图API
 
 > 涩图biubiu
 
