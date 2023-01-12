@@ -152,6 +152,3 @@ pixiv.cat中已经提供了两种方法，分别是直接用Nginx和用js运行�
 ### 特别鸣谢
 
 - [MirlKoi](https://iw233.cn) 本API大部分的图都来自iw233大佬
-
-
-<a href="https://icp.gov.moe/?keyword=20233331" target="_blank">萌ICP备20233331号</a>
