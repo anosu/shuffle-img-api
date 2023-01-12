@@ -70,7 +70,7 @@
 | size  | string |        图片的规格        | `original`, `regular`, `small`, `thumb`, `mini`<br />默认为`regular` |
 | type  | string |        返回的格式        |      `json`<br />默认为302跳转，num大于1时强制为`json`       |
 |  num  |  int   |        返回的数量        |                            1-100                             |
-| proxy | string | 图片链接所使用的反代地址 | `i.pixiv.re`<br />默认使用麒麟佬的`i.loli.best`<br />也可以自建反代，请看文末 |
+| proxy | string | 图片链接所使用的反代地址 | `i.pixiv.re`<br />默认使用`i.jitsu.top`<br />也可以自建反代，请看文末 |
 
 | sort  |          类型          |
 | :---: | :--------------------: |
@@ -152,3 +152,6 @@ pixiv.cat中已经提供了两种方法，分别是直接用Nginx和用js运行�
 ### 特别鸣谢
 
 - [MirlKoi](https://iw233.cn) 本API大部分的图都来自iw233大佬
+
+
+<a href="https://icp.gov.moe/?keyword=20233331" target="_blank">萌ICP备20233331号</a>
