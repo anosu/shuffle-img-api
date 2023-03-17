@@ -32,7 +32,7 @@
 
    - 国外源：https://moe.jitsu.top/img
 
-     或者：https://api.jitsu.top/img
+     ~~或者：https://api.jitsu.top/img~~
 
    > 以上两域名可互换，国内源不提供r18的302跳转
 
