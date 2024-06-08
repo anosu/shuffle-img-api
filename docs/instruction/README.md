@@ -28,7 +28,7 @@
 
    - 国内源：https://api.anosu.top/img
 
-     ~~https://moe.anosu.top/img~~(已弃用)
+     ~~https://moe.anosu.top/img~~ (已弃用)
 
    - 国外源：https://moe.jitsu.top/img
 
